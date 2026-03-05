@@ -1,5 +1,5 @@
 ## Features
 
-- [x] Deposit money
-- [x] Withdraw money
-- [x] Calculate account balance
+✅ Deposit money  
+✅ Withdraw money  
+✅ Calculate account balance
