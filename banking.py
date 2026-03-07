@@ -11,7 +11,7 @@ class Transaction:
             self.timestamp = timestamp
 
     def __repr__(self):
-       return f"Transaction({self.amount}, {repr(self.timestamp)})"
+       return f"Transaction(amount={self.amount}, {repr(self.timestamp)})"
 
     def __str__(self):
         sign = "+" if self.amount >= 0 else "-"
