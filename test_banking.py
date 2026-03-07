@@ -32,8 +32,8 @@ def test_account_deposit():
 
 def test_account_withdraw():
     acc = Account()
-    acc.withdraw(10)
-    assert acc.transactions[0].amount == -10
+    acc.withdraw(50)
+    assert acc.transactions[0].amount == -50
 
 
 def test_balance():
